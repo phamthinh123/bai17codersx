@@ -1,5 +1,14 @@
 .App {
-  text-align: center;
+ 
+  background:#20c997;
+  padding: 0rem 1.5rem;
+  width: 480px;
+ min-height: 670px;
+ display: flex;
+ flex-direction: column;
+
+ align-items: center;
+
 }
 
 .App-logo {
@@ -35,4 +44,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0,0,0,0.1);
+}
+.h4title h4{
+  background: white;
+  margin: 0;
+  padding: 0.3rem;
+  border-radius: 8px;
+  transform: translate(30%,280%);
+
+}
+.h4title h4:nth-child(2){
+     transform: translate(50%,270%);
+
+}
+.h4title h4:nth-child(1){
+     width: 70%;
+}
+.Sad{
+  transform: translateY(74%);
+}
+*{
+  user-select: none;
 }

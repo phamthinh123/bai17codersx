@@ -1,0 +1,28 @@
+.Todos{
+	background: white;
+	margin-bottom: 0.8rem;
+
+	border-radius: 15px;
+	width: 100%;
+	padding: 0.7rem;
+	display: flex;
+	
+	justify-content: space-between;
+
+
+}
+.isCompleted{
+	text-decoration: line-through;
+	background: green;
+	color: white;
+}
+
+.Close{
+	transform: translate(-50%,50%);
+}
+h3{
+color:#dc3545;		
+}
+h1{
+	color: aqua;
+}
